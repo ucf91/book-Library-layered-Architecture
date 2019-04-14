@@ -1,4 +1,4 @@
-package com.goinginfinity.hometest;
+package com.goinginfinity.hometest.common.dtos;
 
 public class Book {
     Integer id;
@@ -50,12 +50,7 @@ public class Book {
 
     @Override
     public String toString() {
-        return title+","+author+","+description;
+        return id+","+title+","+author+","+description;
     }
 
-    public String printBookAsItem(){
-        return "["+id+"] "+title;
-    }
-//
-//    public
 }
