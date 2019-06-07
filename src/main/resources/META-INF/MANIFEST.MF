@@ -1,1 +1,1 @@
-Main-Class: com.goinginfinity.hometest.Main
+Main-Class: com.booklibrary.Main
